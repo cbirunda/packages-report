@@ -3,6 +3,7 @@ library(tidyverse)
 library(janitor)
 library(data.table)
 library(magrittr)
+library(here)
 
 
 lib_df<-as.data.frame(installed.packages())
@@ -20,5 +21,5 @@ apt_freqtable <- apt %>%
 ggplot(apt_freqtable, aes(x = built, y = n)) +
   geom_col()
 
-
-rmarkdown::render(test.R)
+here()
+rmarkdown::render(here("test.R")
