@@ -1,3 +1,8 @@
+---
+output: github_document
+---
+
+
 #Load Libraries
 library(tidyverse)
 library(janitor)
