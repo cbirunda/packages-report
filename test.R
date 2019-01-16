@@ -31,5 +31,9 @@ ggplot(apt_freqtable, aes(x = built, y = n)) +
   geom_col()
 
 
+<<<<<<< HEAD
 Learning git is great!
   
+=======
+Learning git is great!
+>>>>>>> 7fe531e... Adding love for git.
