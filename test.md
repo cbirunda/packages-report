@@ -71,7 +71,7 @@ apt <- lib_df %>%
 
 apt_freqtable <- apt %>%
   count(built) %>%
-  mutate(percent = scales::percent(n / sum(n)))
+  mutate(perc = scales::percent(n / sum(n)))
 
 ggplot(apt_freqtable, aes(x = built, y = n)) +
   geom_col()
