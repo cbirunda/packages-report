@@ -5,4 +5,3 @@ An edit from RStudio.
 
 Another edit, now from GitHub in the browser
 
-Love learning Git.
